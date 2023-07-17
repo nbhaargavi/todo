@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.input-con{
+display: flex;
+justify-content: space-between;
+width: 18%;
+
+}
+.input-con input,button{
+padding:7px;
+border-radius: 10px;
+}
+.items
+{
+  display:flex;
+  justify-content: space-between;
+  width: 15%;
+  margin:10px;
+}
+
+.App,.input-con{
+  display:flex ;
+  flex-direction: row;
+  justify-content:center ;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 70px;
+  gap:20px;
+
+}
+button{
+  background-color:#9BE8D8;
+  border:none;
+}
+.items{
+  padding:7px;
+
+  gap:30px;
+}
+.items button{
+ margin-top: 20px;
+ height:40px;
+ 
+}
+.App-header{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
